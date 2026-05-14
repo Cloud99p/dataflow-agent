@@ -2,7 +2,7 @@
 
 **Autonomous Data Processing Pipeline for Solana**
 
-An autonomous agent built for the **OOBE x Ace Data Cloud Bounty**—processing data end-to-end with automatic on-chain payments via x402 protocol.
+An autonomous agent built for the **Solana**—processing data end-to-end with automatic on-chain payments via x402 protocol.
 
 ---
 
@@ -16,29 +16,6 @@ DataFlow Agent automatically:
 
 **Complete workflow**: Trigger → Execution → Payment → Delivery
 
----
-
-## 🏆 Bounty Categories
-
-This agent qualifies for **BOTH** prize pools:
-
-### Category 1: General Payment Volume ($700/$500)
-- ✅ Registered on SAP mainnet
-- ✅ Uses escrow for payments
-- ✅ Synapse RPC in execution
-- ✅ AI capabilities integrated
-- ✅ Synapse Sentinel compatible
-
-### Category 2: Ace Data Cloud Usage ($700/$500)
-- ✅ Ace Data Cloud account integrated
-- ✅ x402 with AceDataCloud facilitator
-- ✅ 3+ distinct services used:
-  - Text Analysis (sentiment, entities, keywords)
-  - Summarization (long-form content)
-  - Data Extraction (structured output)
-- ✅ Synapse RPC in execution
-
----
 
 ## 🛠️ Tech Stack
 
