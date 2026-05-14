@@ -1,0 +1,48 @@
+{
+  "name": "DataFlow Agent",
+  "description": "Autonomous on-chain agent for data processing with AI analysis, summarization, and structured extraction. Built for OOBE x Ace Data Cloud bounty.",
+  "capabilities": [
+    {
+      "id": "ace:text-analysis",
+      "protocolId": "ace-data-cloud",
+      "version": "1.0.0",
+      "description": "Sentiment analysis, entity extraction, and keyword detection from text using Ace Data Cloud NLP APIs"
+    },
+    {
+      "id": "ace:summarization",
+      "protocolId": "ace-data-cloud",
+      "version": "1.0.0",
+      "description": "Long-form content summarization with configurable length and style"
+    },
+    {
+      "id": "ace:data-extraction",
+      "protocolId": "ace-data-cloud",
+      "version": "1.0.0",
+      "description": "Extract structured data from unstructured text using JSON Schema validation"
+    }
+  ],
+  "pricing": [
+    {
+      "tierId": "standard",
+      "pricePerCall": 1000000,
+      "rateLimit": 60,
+      "tokenType": "sol",
+      "settlementMode": "x402"
+    },
+    {
+      "tierId": "premium",
+      "pricePerCall": 5000000,
+      "rateLimit": 300,
+      "tokenType": "sol",
+      "settlementMode": "x402"
+    }
+  ],
+  "protocols": ["ace-data-cloud", "x402", "synapse"],
+  "x402Endpoint": "https://github.com/YOUR_USERNAME/dataflow-agent",
+  "metadata": {
+    "website": "https://github.com/YOUR_USERNAME/dataflow-agent",
+    "github": "https://github.com/YOUR_USERNAME/dataflow-agent",
+    "contact": "your-email@example.com",
+    "bounty": "OOBE x Ace Data Cloud Autonomous Agent"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "DataFlow Agent",
+  "description": "Autonomous data processing pipeline with AI analysis, summarization, and structured data extraction",
+  "capabilities": [
+    {
+      "id": "ace:text-analysis",
+      "protocolId": "ace-data-cloud",
+      "version": "1.0.0",
+      "description": "Sentiment analysis, entity extraction, and keyword detection from text"
+    },
+    {
+      "id": "ace:summarization",
+      "protocolId": "ace-data-cloud",
+      "version": "1.0.0",
+      "description": "Long-form content summarization with configurable length"
+    },
+    {
+      "id": "ace:data-extraction",
+      "protocolId": "ace-data-cloud",
+      "version": "1.0.0",
+      "description": "Extract structured data from unstructured text using JSON Schema"
+    }
+  ],
+  "pricing": [
+    {
+      "tierId": "standard",
+      "pricePerCall": 1000000,
+      "rateLimit": 60,
+      "tokenType": "sol",
+      "settlementMode": "x402"
+    },
+    {
+      "tierId": "premium",
+      "pricePerCall": 5000000,
+      "rateLimit": 300,
+      "tokenType": "sol",
+      "settlementMode": "x402"
+    }
+  ],
+  "protocols": ["ace-data-cloud", "x402", "synapse"],
+  "x402Endpoint": "https://your-agent-domain.com/x402",
+  "metadata": {
+    "website": "https://your-agent-domain.com",
+    "github": "https://github.com/yourusername/dataflow-agent",
+    "contact": "your@email.com"
+  }
+}
