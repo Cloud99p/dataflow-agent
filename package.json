@@ -10,7 +10,7 @@
     "start:dev": "ts-node src/autonomous-agent.ts",
     "dev": "ts-node src/index.ts",
     "demo": "ts-node scripts/demo.ts",
-    "demo:simple": "ts-node src/demo-simple.ts",
+    "demo:simple": "node src/demo-simple.js",
     "register": "ts-node scripts/register-agent.ts",
     "test": "jest",
     "lint": "eslint src/**/*.ts"
