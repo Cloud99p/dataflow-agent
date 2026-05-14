@@ -19,7 +19,7 @@
 import dotenv from 'dotenv';
 import { Connection, Keypair, PublicKey } from '@solana/web3.js';
 import { AnchorProvider } from '@coral-xyz/anchor';
-import { SapClient } from '@synapse-sap/sdk';
+import { SapClient } from '@oobe-protocol-labs/synapse-sap-sdk';
 import { AceDataCloudService } from './services/ace-data-cloud.js';
 import { PaymentService } from './services/payment.js';
 import { DataFlowWorkflow, WorkflowTrigger } from './agent/workflow.js';

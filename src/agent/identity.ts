@@ -4,7 +4,7 @@
  * Handles SAP agent registration and management.
  */
 
-import { SapClient } from '@synapse-sap/sdk';
+import { SapClient } from '@oobe-protocol-labs/synapse-sap-sdk';
 import { PublicKey } from '@solana/web3.js';
 import { logger } from '../utils/logger.js';
 

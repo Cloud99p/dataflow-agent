@@ -8,7 +8,7 @@
  * Docs: https://explorer.oobeprotocol.ai/agents/Ccr2yK3hLALU4p8oNRqrh4dGuvPJTth5KCLMio8cE1ph
  */
 
-import { SapClient } from '@synapse-sap/sdk';
+import { SapClient } from '@oobe-protocol-labs/synapse-sap-sdk';
 import { PublicKey, Connection, Transaction } from '@solana/web3.js';
 import { logger } from '../utils/logger.js';
 

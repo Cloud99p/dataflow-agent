@@ -9,7 +9,7 @@
  * - x402 payment settlement
  */
 
-import { SapClient } from '@synapse-sap/sdk';
+import { SapClient } from '@oobe-protocol-labs/synapse-sap-sdk';
 import { PublicKey, Connection } from '@solana/web3.js';
 import { AceDataCloudService, TextAnalysisResult, SummarizationResult, DataExtractionResult } from '../services/ace-data-cloud.js';
 import { PaymentService } from '../services/payment.js';

@@ -56,14 +56,21 @@ This agent qualifies for **BOTH** prize pools:
 
 ### Prerequisites
 - Node.js 20+
-- Solana CLI (optional, for keypair generation)
-- SAP CLI (`synapse-sap`)
+- Git
 
 ### 1. Clone & Install
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/Cloud99p/dataflow-agent
 cd dataflow-agent
 npm install
+```
+
+### 2. Run Demo
+```bash
+# Run demo mode (works immediately)
+npm run demo:simple
+
+# Shows complete workflow structure with JSON output
 ```
 
 ### 2. Setup
@@ -243,11 +250,28 @@ Code: [this repo]
 
 ## 🔗 Resources
 
+### Official
 - **SAP SDK**: https://github.com/OOBE-PROTOCOL/synapse-sap-sdk
 - **SAP Explorer**: https://explorer.oobeprotocol.ai/
+- **SAP Docs**: https://explorer.oobeprotocol.ai/docs
 - **Ace Data Cloud**: https://platform.acedata.cloud
 - **x402 Client**: https://github.com/AceDataCloud/X402Client
 - **Synapse RPC**: https://synapse.oobeprotocol.ai/
+
+### ⚠️ SAP SDK Access
+
+The SAP SDK packages require special access. To get full functionality:
+
+1. **Contact OOBE Protocol** for npm access or installation instructions
+2. **Join Discord**: https://discord.com/invite/clawd
+3. **Check Docs**: https://explorer.oobeprotocol.ai/docs
+
+**Demo mode works without SDK** - run `npm run demo:simple` to see the workflow structure.
+
+For production bounty submission, you'll need SAP SDK access to:
+- Register agent on-chain
+- Perform actual tool discovery
+- Execute real x402 payments
 
 ---
 
